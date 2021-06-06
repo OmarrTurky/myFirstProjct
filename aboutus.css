@@ -1,0 +1,149 @@
+body {
+    font-family: arial;
+    margin: 0;
+    background: rgb(235, 229, 229);  
+}
+
+body #wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(211, 211, 211);
+}
+
+#main-navigation {
+    background-color: rgb(214, 182, 0);
+    padding: 13px;
+    height: 45px;    
+}
+
+#main-navigation ul {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#main-navigation a {
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    /*background: yellow;*/
+    /*background: -webkit-linear-gradient(top, yellow 0% ,  rgb(168, 143, 0) 100%); */
+}
+
+#main-navigation a:hover {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+#main-navigation a:active {
+    color: grey;
+}
+
+#main-navigation a.paints {
+    color: brown;
+}
+
+#main-navigation a.logging {
+    margin-right: 0px;
+    margin-left: 300px;
+    box-shadow: 2px 2px 4px 2px rgba(52, 70, 26, 0.6);
+    border-radius: 4px;
+    color: brown;
+}
+
+#cover img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 4px 2px rgba(52, 70, 26, 0.6);
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+
+
+
+
+#mission {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    margin: 70px;
+    font-weight: bold;
+}
+
+.horzline {
+    width: 80%;
+}
+
+
+#content {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 150px;
+    color: brown;
+    font-size: 23px;
+    text-align:justify;
+    margin-bottom: 40px;
+    max-height: 85px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    opacity: 0.6;
+}
+
+
+#content.open
+{
+    max-height: 1000px;
+    opacity: 1;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+
+#show-more { 
+   background: rgb(214, 182, 0);
+   padding: 12px;
+   margin-left: 600px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: brown;
+   text-align: center;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+#end img {
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

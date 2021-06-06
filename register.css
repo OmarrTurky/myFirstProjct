@@ -1,0 +1,158 @@
+body {
+    font-family: arial;
+    margin: 0;
+    background: rgb(211, 211, 211);  
+}
+
+body #wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(211, 211, 211);
+}
+
+#main-navigation {
+    background-color: rgb(214, 182, 0);
+    padding: 13px;
+    height: 45px;    
+}
+
+#main-navigation ul {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#main-navigation a {
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    /*background: yellow;*/
+    /*background: -webkit-linear-gradient(top, yellow 0% ,  rgb(168, 143, 0) 100%); */
+}
+
+#main-navigation a:hover {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+#main-navigation a:active {
+    color: grey;
+}
+
+#main-navigation a.paints {
+    color: brown;
+}
+
+#main-navigation a.logging {
+    margin-right: 0px;
+    margin-left: 300px;
+    box-shadow: 2px 2px 4px 2px rgba(52, 70, 26, 0.6);
+    border-radius: 4px;
+    color: brown;
+}
+
+
+div #cover img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 4px 2px rgba(52, 70, 26, 0.6);
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+#my-form {
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 480px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 4px 2px rgba(175, 173, 173, 0.6);  
+    border-radius: 6px;
+    color: brown;
+}
+
+
+
+label[for="create-acc"]
+{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: block;
+}
+
+label[for="name"] , label[for="text"] , label[for="email"] ,
+label[for="password"] , label[for="repassword"] ,
+label[for="gender"] , label[for="country"] {
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+input[name="name"] , input[name="email"] , input[name="password"],
+input[name="repassword"] {
+    margin-bottom: 8px;
+    background-color: brown;
+    color: white;
+    /*border-radius: 3px;*/
+    width: 300px;
+}
+
+
+
+input[name="female"] {
+    margin-bottom: 17px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+select {
+    color: white;
+    background-color: brown;
+    margin-left: 7px;
+}
+
+input[name="submit"] {
+    margin-top: 30px;
+    color:white;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+    text-align: center;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
